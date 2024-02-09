@@ -11,5 +11,6 @@ export class CdkApplicaitonServerlessStack extends cdk.Stack {
       queueName: `queue-process`,
       visibilityTimeout: cdk.Duration.seconds(300),
     });
+
   }   
 }
